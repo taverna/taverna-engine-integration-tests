@@ -42,15 +42,5 @@
 			<version>${t2.reference-core-extensions.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>net.sf.taverna.t2.compatibility</groupId>
-			<artifactId>compatibility-api</artifactId>
-			<version>${t2.compatibility.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.taverna.t2.compatibility</groupId>
-			<artifactId>compatibility-impl</artifactId>
-			<version>${t2.compatibility.version}</version>
-		</dependency>
 	</dependencies>
 </project>

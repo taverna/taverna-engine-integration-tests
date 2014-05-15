@@ -38,23 +38,6 @@
 		</dependency>
 
 
-		<dependency>
-			<groupId>uk.org.mygrid.taverna.processors</groupId>
-			<artifactId>taverna-beanshell-processor</artifactId>
-			<version>${taverna.version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>uk.org.mygrid.taverna.raven 
-					</groupId>
-					<artifactId>raven</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>uk.org.mygrid.taverna.raven 
-					</groupId>
-					<artifactId>raven-log4j</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
